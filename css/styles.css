@@ -1,0 +1,37 @@
+/* header */
+.header {
+  margin: 0 auto;
+  width: 1500px;
+  height: 500px;
+}
+.container-header {
+  margin: 0 auto;
+  width: 1500px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.logo-bob {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+  color: yellow;
+}
+.span {
+  color: black;
+}
+.span:hover,
+:focus {
+  color: yellow;
+  transition-duration: 350ms;
+  transition-delay: 250ms;
+  -o-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}

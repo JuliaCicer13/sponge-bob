@@ -109,7 +109,7 @@
   height: 1500px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../images/k2-_527540bc-3cd9-4828-ad6b-bf6c0899abbb.v1.webp);
+  background-image: url(../images/spongebob.webp);
   margin-bottom: 120px;
 }
 
@@ -123,12 +123,12 @@
 }
 /* section-two */
 .section-two {
+  margin-bottom: 120px;
+}
+.container-two {
   display: flex;
   justify-content: center;
-  margin: auto;
-  width: 1500px;
-  height: 700px;
-  margin-bottom: 120px;
+  margin: 0 auto;
 }
 .container-save {
   margin-top: 50px;
@@ -176,4 +176,99 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
   transition-delay: 150ms;
+}
+/* section-three */
+.section-three {
+  margin: 0 auto;
+  margin-bottom: 120px;
+  background-color: aqua;
+}
+.container-three {
+  margin: 0 auto;
+}
+.title-portfolio {
+  color: brown;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.list-button {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 20px;
+}
+.gap-button {
+  margin-right: 10px;
+}
+.button {
+  cursor: pointer;
+  background-color: cornflowerblue;
+  border-color: blue;
+  border-radius: 7px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: azure;
+  width: 150px;
+  height: 40px;
+}
+.button:hover,
+:focus {
+  background-color: aqua;
+  transition-duration: 350ms;
+  transition-delay: 250ms;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.list-pictures {
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.gap-picture {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.container-bob {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  border: solid 1px;
+  border-radius: 5px;
+  border-color: blue;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.container-bob:hover,
+:focus {
+  transition-duration: 400ms;
+  transition-delay: 250ms;
+  transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  border-color: yellow;
+}
+.text-transform {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transform: translateY(100%);
+  transition-duration: 350ms;
+  transition-delay: 250ms;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: absolute;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-style: italic;
+  color: blue;
+}
+a:hover .text-transform {
+  transform: translateY(0%);
+}
+a:focus .text-transform {
+  transform: translateY(0%);
 }

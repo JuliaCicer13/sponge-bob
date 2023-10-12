@@ -291,3 +291,25 @@ a:hover .text-transform {
 a:focus .text-transform {
   transform: translateY(0%);
 }
+/* footer */
+.footer {
+  background-color: blue;
+}
+.container-footer {
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+}
+.container-logo {
+  margin-right: 40px;
+}
+.conteiner-footer-social {
+  margin-right: 40px;
+}
+.comment-two {
+  color: black;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+}
